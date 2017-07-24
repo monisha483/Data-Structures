@@ -72,7 +72,7 @@ void PercolateDown(int p, heap *H)
 	}
 	if(right<H->count && H->array[right]>H->array[max])
 	{
-		max=left;
+		max=right;
 	}
 	if(max==p) 
 	{
